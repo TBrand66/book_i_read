@@ -6,7 +6,7 @@ on:
 
 
 env:
-  APP_VERSION: 126
+  APP_VERSION: 127
 jobs: 
     simple_deploy:
         runs-on: ubuntu-latest
@@ -28,6 +28,8 @@ jobs:
         - name: "Push the image to DockerHub"
           run: |
                 docker push abatan/bik_latest:$APP_VERSION
+
+                
 
 
             

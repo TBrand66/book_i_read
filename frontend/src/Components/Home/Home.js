@@ -6,7 +6,7 @@ function Home(){
                 <Navbar></Navbar>
                 <div className="jumbotron">
                     <h3>Books I Love to Read &gt; <small>A curated list of books all of us are currently reading ...</small></h3>
-                    <hr></hr>
+                    <hr>HE-CODE</hr>
                     <p>
                         <button className="btn btn-lg btn-dark">Add Your Book Listing</button>
                     </p>
